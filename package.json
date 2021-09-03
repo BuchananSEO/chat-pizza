@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@capacitor/cli": "^3.2.2",
+    "@capacitor/core": "^3.2.2",
     "@cometchat-pro/cordova-ionic-chat": "^3.0.0",
     "@ionic-native/chooser": "^5.8.0",
     "@ionic-native/core": "^5.0.7",

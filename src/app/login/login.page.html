@@ -1,23 +1,18 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>Login</ion-title>
-  </ion-toolbar>
-</ion-header> -->
 
 <ion-content>
-  <div class="outerDiv">
-    <div class='imageOuter'>
-      <img src="../assets/favicon.png" class="center">
-    </div>
-    <div class="loginContainer">
-      <ion-item> 
-          <ion-label position="floating">Enter UID</ion-label>
-          <ion-input type="text" [(ngModel)]="userUID" class="loginInput"></ion-input>
-        </ion-item>
-        <br>
-        <br>
-        <ion-button expand="full" shape="round" (click)='onSubmit()' class="loginBtn">Login</ion-button>
-    </div>    
-  </div>
+  <main class="form-signin">
 
+    <img class="mb-4" src="../assets/img/logo-110h.png" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+    <div class="form-floating">
+      <ion-input type="text" [(ngModel)]="userUID"  class="form-control" id="floatingInput" placeholder="User Name"> </ion-input>
+      <label for="floatingInput">Email address</label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary"  (click)='onSubmit()'>Login</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+
+</main>
 </ion-content>
+
+
