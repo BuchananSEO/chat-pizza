@@ -1,12 +1,11 @@
-# ionic-comet-chat
-demonstrate a chat system with ionic and cometChat
+Chat Pizza - Ionic Angular Commet Chat Kitchen Sink Application
+- Leveraging Auth0 User Login
 
 run the following:
 npm install
-ionic serve -l
-turn to your browser and open two windows not tab
-lunch the app on localhost://8100
-login with ty on the first windwo and biodun on the second window
-start charting
+npm audit fix 
+npm install @ionic-native/core@latest
+ionic cap sync 
+ionic serve
 
-Note that ios and android platform has not yet been added
+ios & android coming fall 2021
