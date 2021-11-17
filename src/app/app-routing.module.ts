@@ -34,7 +34,31 @@ const routes: Routes = [
   {
     path: 'tabs',
     loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
+  },  {
+    path: 'user',
+    loadChildren: () => import('./user/user.module').then( m => m.UserPageModule)
   },
+  {
+    path: 'discover',
+    loadChildren: () => import('./datafeed/discover/discover.module').then( m => m.DiscoverPageModule)
+  },
+  {
+    path: 'personals',
+    loadChildren: () => import('./datafeed/personals/personals.module').then( m => m.PersonalsPageModule)
+  },
+  {
+    path: 'real-estate',
+    loadChildren: () => import('./datafeed/real-estate/real-estate.module').then( m => m.RealEstatePageModule)
+  },
+  {
+    path: 'jobs',
+    loadChildren: () => import('./datafeed/jobs/jobs.module').then( m => m.JobsPageModule)
+  },
+  {
+    path: 'messenger-modal',
+    loadChildren: () => import('./messenger-modal/messenger-modal.module').then( m => m.MessengerModalPageModule)
+  },
+
   // {
   //   path: 'tab1',
   //   loadChildren: () => import('./pages/tab1/tab1.module').then( m => m.Tab1PageModule)
